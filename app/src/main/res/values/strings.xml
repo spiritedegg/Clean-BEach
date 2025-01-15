@@ -1,0 +1,29 @@
+<resources>
+<string name="trash_track">
+Trash Tracker
+</string>
+
+    <string name="sub_categor">
+Sub-Category:
+</string>
+
+    <string name="general_was">
+General Waste
+</string>
+
+    <string name="category_">
+Category:
+</string>
+
+    <string name="general_was_main">
+General Waste
+</string>
+
+    <string name="some_id">
+0
+</string>
+
+    <string name="total_0_kg_">
+Total: 0 kg | 0 pcs
+</string>
+</resources>

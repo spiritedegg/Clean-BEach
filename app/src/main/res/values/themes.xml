@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="trash_track">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="sub_categor">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#C5C5C5</item>
+    </style>
+
+    <style name="general_was">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#5D5D5D</item>
+    </style>
+
+    <style name="category_">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#C5C5C5</item>
+    </style>
+
+    <style name="general_was_main">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#5D5D5D</item>
+    </style>
+
+    <style name="some_id">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="total_0_kg_">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+
+</resources>
