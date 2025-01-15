@@ -7,16 +7,19 @@
     android:layout_height="917dp">
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
     <RelativeLayout
         android:id="@+id/android_com"
         android:layout_width="412dp"
-        android:layout_height="match_parent"
+        android:layout_height="917dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="0dp"
         android:background="#FFFFFF"
-        android:clipToOutline="true" />
+        />
 
-    <!-- Auto layout, variables, and unit scale are not yet supported -->
     <View
         android:id="@+id/category"
         android:layout_width="342dp"
@@ -257,22 +260,22 @@
 
     <Button
         android:id="@+id/button_7"
+        style="@android:style/Widget.Button"
         android:layout_width="69.3dp"
         android:layout_height="68.3dp"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="77.89dp"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="77.89dp"
         android:layout_marginTop="492.66dp"
         android:background="@drawable/ellipse_button"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:focusable="true"
+        android:gravity="center"
         android:text="7"
         android:textColor="@color/black"
         android:textSize="18sp"
-        android:gravity="center"
-        android:clickable="true"
-        android:focusable="true"
-        android:elevation="10dp"
-        android:translationZ="4dp"
-        />
+        android:translationZ="4dp" />
 
     <Button
         android:id="@+id/button_8"
@@ -404,24 +407,37 @@
         android:layout_marginTop="736dp"
         />
 
-    <Button
-        android:id="@+id/button_reset"
+    <RelativeLayout
         android:layout_width="99dp"
         android:layout_height="35dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="35dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="736dp"
         android:background="@drawable/rectangle_8"
-        android:text="Reset"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:gravity="center"
-        android:clickable="true"
-        android:focusable="true"
         android:elevation="10dp"
         android:translationZ="4dp"
-        />
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="736dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trash2"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/icon"
+            android:layout_marginStart="5dp"/>
+    </RelativeLayout>
+
+
 
     <View
         android:id="@+id/top_bar"
@@ -457,24 +473,21 @@
         android:layout_width="76dp"
         android:layout_height="76dp"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="301dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="710dp"
-        android:background="@drawable/ellipse_tick"
-        />
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="702dp"
+        android:background="@drawable/ellipse_tick" />
 
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <ImageView
         android:id="@+id/check"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="319dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="-85dp"
+        android:layout_marginStart="319dp"
+        android:layout_marginTop="720dp"
         android:clipToOutline="true"
-        android:srs="@drawable/check"
-        />
+        android:src="@drawable/check" />
 
 
 </RelativeLayout>
